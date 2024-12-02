@@ -12,6 +12,7 @@ use convert::Sql;
 use fetcher::retrieve_data;
 use loader::detect_content;
 
+pub use dialect::example_sql;
 pub use dialect::TryDialect;
 
 #[derive(Debug)]
